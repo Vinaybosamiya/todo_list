@@ -74,8 +74,8 @@ function App() {
 
         {/* show dynamically todos */}
         {/* start for dynamically show  */}
+        {Todos.length === 0 && <h1 className='my-20'>Not Available Any Your Todos</h1>}
         {Todos.map(item => {
-
 
           return (
           <div key={item.id} className="btn h-10 my-4 hover:bg-white-b flex justify-between border-2  items-center rounded-2xl relative top-4">
