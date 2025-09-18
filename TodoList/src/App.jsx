@@ -1,3 +1,4 @@
+// add edit functionality in this todo list
 import { useEffect, useState } from 'react'
 import Navbar from './components/navbar'
 import './App.css'
