@@ -145,7 +145,7 @@ localStorage.setItem("Todos", ...) → saves that string in browser storage unde
             <div className='flex'>
               <input type="text" className='border input bg-white-b w-fit' onChange={handleChange} value={Todo} />
               {/* <button onClick={handleAdd} disabled={Todo.length === 0} className={`hover:bg-purple-b text-white-t rounded-md mx-2 px-3 cursor-pointer bg-light-purple-b  ${Todo.length === 0 ? "bg-light-purple-b" : "bg-purple-b "}`}>Add Now / Save </button> */}
-              <button onClick={handleAdd} disabled={Todo.length === 0} className={`hover:bg-purple-b text-white-t rounded-md mx-2 px-3 cursor-pointer bg-light-purple-b  ${Todo.length === 0 ? "bg-light-purple-b" : "bg-purple-b "}`}> Save </button>
+              <button onClick={handleAdd} disabled={Todo.length === 0} className={`hover:bg-purple-b text-white-t rounded-md mx-2 px-3 cursor-pointer bg-light-purple-b md:bg-purple1-b md:bg-purple1-b ${Todo.length === 0 ? "bg-light-purple-b" : "bg-purple-b "}`}> Save </button>
             </div>
             <input onChange={toggleFinished} type="checkbox" className='hidden sm:block relative bottom-[3px]' checked={showFinished} />
 
