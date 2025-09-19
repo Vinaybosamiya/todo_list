@@ -5,6 +5,7 @@
   --purple-t: #785afc;
   --black-t: #000000;
   --purple1-t: #5834f5;
+  --light-purple-t:#a998f5; 
   --lightPurple-t: #e1ddfa;
 
   /* For BackGround  */
@@ -12,7 +13,8 @@
   --purple-b: #785afc;
   --black-b: #000000;
   --purple1-b: #5834f5;
-   --lightPurple-b: #e1ddfa;
+  --light-purple-b:#a998f5; 
+   --lightPurple-b: #e1ddfa;  
 }
 @theme {
   /* for text */
@@ -21,6 +23,7 @@
   --color-black-t: var(--black-t);
   --color-purple1-t: var(--purple1-t);
   --color-lightPurple-t: var(--lightPurple-t);
+  --color-light-purple-t:var(--light-purple-t);
 
   /* For BackGround  */
   --color-purple-b: var(--purple-b);
@@ -28,6 +31,7 @@
   --color-black-b: var(--black-b);
   --color-purple1-b: var(--purple1-b);
   --color-lightPurple-b: var(--lightPurple-b);
+  --color-light-purple-b:var(--light-purple-b)
 }
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
